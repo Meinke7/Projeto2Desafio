@@ -1,0 +1,167 @@
+body {
+display: flex;
+justify-content: center;
+font-family: 'JetBrains Mono', monospace;
+background: #2C2B3D;
+
+
+
+
+
+}
+
+.page {
+  max-width: 1280px;
+  height: 720px;
+  
+}
+
+ul a {
+ display: flex;
+  color: #FFF;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+nav  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  margin-top: 71px;
+  margin-bottom: 115px;
+  
+  
+  
+}
+
+
+
+
+
+
+section {
+  
+
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+h1 span {
+  color: #00BFA6;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+
+}
+
+p {
+  color: #C2C2C2;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  flex-direction: column;
+flex-shrink: 0;
+
+
+  }
+
+p span {
+  color:#00BFA6
+
+}
+
+p strong {
+  color: #C2C2C2
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 82px
+}
+
+main img {
+  margin-top: 33px;
+  width: 401px;
+  height: 283px;
+}
+
+main section {
+  width: 605px;
+  
+}
+
+
+
+footer {
+  color: #FFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 157px;
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  
+
+}
+
+.line{
+
+  border-top: 1px solid #00BFA6;
+  width: 568px;
+  padding-top: 27px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+.line a {
+  padding-top: 27px;
+  text-decoration: none;
+  
+}
+
+footer p {color: #FFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+
+}
